@@ -1,0 +1,10 @@
+default_platform(:ios)
+before_all do
+  xcversion(version: "11.3")
+end
+platform :ios do
+  desc 'Runs the tests in Introspect'
+  lane :test do
+    scan(scheme: "PullToRefresh")
+  end
+end
