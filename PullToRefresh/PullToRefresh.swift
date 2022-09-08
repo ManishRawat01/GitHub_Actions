@@ -23,6 +23,8 @@ public enum Position {
     
 }
 
+// Test comment added Manish
+
 open class PullToRefresh: NSObject {
     
     open var position: Position = .top
