@@ -2,7 +2,7 @@ name: CI
 on:
   pull_request:
     branches:
-      - master
+      - main
 jobs:
   validate-and-test:
     runs-on: macOS-latest
